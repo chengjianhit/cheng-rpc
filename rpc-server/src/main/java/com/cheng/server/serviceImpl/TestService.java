@@ -8,6 +8,6 @@ public class TestService implements ITestService {
     @Override
     public String testService(String args) {
 
-        return "Receive Message is " + args;
+        return "Receive Message From Client is " + args;
     }
 }
